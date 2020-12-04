@@ -123,7 +123,14 @@
               "devServerTarget": "airgap-toolkit:serve:production"
             }
           }
-        }
+        },
+        "deploy": {
+					"builder": "angular-cli-ghpages:deploy",
+					"options": {
+						"baseHref": "/airgap-toolkit/",
+						"noSilent": true
+					}
+				}
       }
     }
   },
