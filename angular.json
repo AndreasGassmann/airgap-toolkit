@@ -115,9 +115,9 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-						"baseHref": "/airgap-toolkit/",
-						"noSilent": true
-					}
+            "baseHref": "/airgap-toolkit/",
+            "noSilent": true
+          }
         }
       }
     }
